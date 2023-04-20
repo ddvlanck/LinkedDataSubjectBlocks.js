@@ -1,0 +1,31 @@
+{
+  "name": "linkeddatasubjectblocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddvlanck/LinkedDataSubjectBlocks.js.git"
+  },
+  "author": "Dwight Van Lancker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddvlanck/LinkedDataSubjectBlocks.js/issues"
+  },
+  "homepage": "https://github.com/ddvlanck/LinkedDataSubjectBlocks.js#readme",
+  "dependencies": {
+    "@rdfjs/types": "^1.1.0",
+    "rdf-parse": "^2.3.2",
+    "rdf-serialize": "^2.2.2",
+    "sparql-http-client": "^2.4.2",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.12",
+    "@types/sparql-http-client": "^2.2.8",
+    "@types/yargs": "^17.0.24"
+  }
+}
